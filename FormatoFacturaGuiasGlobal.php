@@ -241,8 +241,8 @@ $Totales["MntTotal"]="14319";
 #                                                                                                              
 #                                                                                                              
 $detalle["1"]["NroLinDet"]="1";
-$detalle["1"]["NmbItem"]="";
-$detalle["1"]["DscItem"]="BOTELLA DE AGUA 900CC. AZUL";
+$detalle["1"]["NmbItem"]="SE FACTURAN GUIAS";
+$detalle["1"]["DscItem"]="3333 - 3334 - 3337 - 3343";
 $detalle["1"]["TpoCodigo"]="INT1";
 $detalle["1"]["UnmdItem"]="UNI";
 $detalle["1"]["QtyItem"]="43";
@@ -255,17 +255,25 @@ $detalle["1"]["DscItemPesos"]="0";
 $detalle["1"]["IndExe"]="0";
 
 ##############################################################                                                 
-#######    REFERENCIAS                                                                                         
-##############################################################                                                 
-# folio del documento referenciado
-$doc_referencia["1"]["FolioRef"]="4775";                                                                     
-# Tipo de Documento Referenciado 33=FacturaElectronica
-$doc_referencia["1"]["TpoDocRef"]="33";                                                                      
+#######    REFERENCIAS DE FACTURACIÓN GLOBAL DE GUIAS                                                                                
+##############################################################
+#
+# Debe ser 1 para activar el indicado global de facturacion de guias
+$doc_referencia["1"]["IndGlobal"]="1";    
+#
+# Debe ser cero sólo si el documento tiene encendido el Indicador de referencia global.
+$doc_referencia["1"]["FolioRef"]="0";                                                  
+#
+# Tipo de Documento Referenciado 52=GuiaElectronica
+$doc_referencia["1"]["TpoDocRef"]="52"; 
+#
 # Comentario de la Referencia
-$doc_referencia["1"]["RazonRef"]="Anula Factura 4775";                                                           
-# 1=Anula 2=CorrigeValores 3=CorrigeTextos
-$doc_referencia["1"]["CodRef"]="1";
-# Fecha del Documento referenciado formato aaaa-mm-dd
+$doc_referencia["1"]["RazonRef"]="SE FACTURAN GUIAS DEL MES: 3333 - 3334 3337 - 3343";                                                           
+#
+# El codigo de referencia debe ir vacio
+$doc_referencia["1"]["CodRef"]="";
+#
+# Fecha de de emisión de la factura formato aaaa-mm-dd
 $doc_referencia["1"]["FchRef"]="2016-04-28";         
 
 ##############################################################                                                 
