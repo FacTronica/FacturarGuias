@@ -144,10 +144,10 @@ $IdDoc["FchVenc"]="2016-08-05";
 $IdDoc["TermPagoGlosa"]="CONTADO";
 #                                                                                                              
 # TIPO DE DOCUMENTO FV=33, ND=56, NC=61                                                                        
-$IdDoc["TipoDTE"]="61";
+$IdDoc["TipoDTE"]="33";
 #                                                                                                              
 # FOLIO DEL DOCUMENTO                                                                                          
-$IdDoc["Folio"]="38";
+$IdDoc["Folio"]="22438";
 #                                                                                                              
 # INDICADOR DE LINEAS EN VALORES BRUTOS 1=SI 0=NO                                                              
 $IdDoc["MntBruto"]="1";
