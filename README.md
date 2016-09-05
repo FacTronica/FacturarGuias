@@ -34,4 +34,4 @@ $doc_referencia["1"]["FchRef"]="2016-04-28";
 </pre>
 
 Desde el siguiente link podrá ver el formato completo del archivo txt para dicho proceso.
-https://github.com/FacTronica/FacturarGuias/blob/master/FormatoFacturaGuiasGlobal.php
+<br>https://github.com/FacTronica/FacturarGuias/blob/master/FormatoFacturaGuiasGlobal.php
