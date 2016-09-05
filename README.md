@@ -8,6 +8,8 @@ Este mecanismo se utiliza cuando se quiere facturar masivamente un grupo de guí
 Para se dispone de un "Indicador Global de Facturación", el cual debe ir con valor 1.
 
 En el archivo txt se le deben pasar los parámetros de la siguiente forma:
+
+<pre>
 ##############################################################                                                 
 #######    REFERENCIAS DE FACTURACIÓN GLOBAL DE GUIAS                                                                                
 ##############################################################
@@ -29,3 +31,4 @@ $doc_referencia["1"]["CodRef"]="";
 #
 # Fecha de de emisión de la factura formato aaaa-mm-dd
 $doc_referencia["1"]["FchRef"]="2016-04-28";   
+</pre>
