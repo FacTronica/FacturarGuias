@@ -225,31 +225,31 @@ $Receptor["CorreoRecep"]="contacto@factronica.cl";
 $Totales["TasaIVA"]="19";
 #                                                                                                              
 # NETO AFECTO                                                                                                  
-$Totales["MntNeto"]="12033";
+$Totales["MntNeto"]="100000";
 #                                                                                                              
 # NETO EXENTO                                                                                                  
 $Totales["MntExe"]="0";
 #                                                                                                              
 # MONTO IVA                                                                                                    
-$Totales["IVA"]="2286";
+$Totales["IVA"]="19000";
 #                                                                                                              
 # MONTO TOTAL BRUTO                                                                                            
-$Totales["MntTotal"]="14319";
+$Totales["MntTotal"]="119000";
 ##############################################################                                                 
 #######    DETALLE                                                                                             
 ##############################################################                                                 
 #                                                                                                              
 #                                                                                                              
 $detalle["1"]["NroLinDet"]="1";
-$detalle["1"]["NmbItem"]="SE FACTURAN GUIAS";
+$detalle["1"]["NmbItem"]="SE FACTURAN GUIAS DEL MES";
 $detalle["1"]["DscItem"]="3333 - 3334 - 3337 - 3343";
 $detalle["1"]["TpoCodigo"]="INT1";
 $detalle["1"]["UnmdItem"]="UNI";
-$detalle["1"]["QtyItem"]="43";
-$detalle["1"]["VlrCodigo"]="BA900-A";
-$detalle["1"]["PrcItem"]="333";
+$detalle["1"]["QtyItem"]="1";
+$detalle["1"]["VlrCodigo"]="GUIAS";
+$detalle["1"]["PrcItem"]="100000";
 $detalle["1"]["CodImpAdic"]="";
-$detalle["1"]["MontoItem"]="333";
+$detalle["1"]["MontoItem"]="100000";
 $detalle["1"]["DescuentoPct"]="0";
 $detalle["1"]["DscItemPesos"]="0";
 $detalle["1"]["IndExe"]="0";
@@ -268,7 +268,7 @@ $doc_referencia["1"]["FolioRef"]="0";
 $doc_referencia["1"]["TpoDocRef"]="52"; 
 #
 # Comentario de la Referencia
-$doc_referencia["1"]["RazonRef"]="SE FACTURAN GUIAS DEL MES: 3333 - 3334 3337 - 3343";                                                           
+$doc_referencia["1"]["RazonRef"]="SE FACTURAN GUIAS DEL MES ABRIL 2016";                                                           
 #
 # El codigo de referencia debe ir vacio
 $doc_referencia["1"]["CodRef"]="";
